@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{9E4C52B1-B0F9-45E5-B83D-79B5B9C51C33}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaOrganiser\Program.cs">
+    <Files>
+      <File FileName="MediaOrganiser\Media.cs" Line="1" Column="1" />
+      <File FileName="MediaOrganiser\MediaType.cs" Line="1" Column="1" />
+      <File FileName="MediaOrganiser\Program.cs" Line="27" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MediaOrganiser PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
