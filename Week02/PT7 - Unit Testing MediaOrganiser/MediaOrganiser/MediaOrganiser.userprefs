@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{9E4C52B1-B0F9-45E5-B83D-79B5B9C51C33}|Default">
+﻿<Properties StartupConfiguration="{9E4C52B1-B0F9-45E5-B83D-79B5B9C51C33}|Unit Tests">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -6,11 +6,25 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="MediaOrganiser\MediaTests.cs">
     <Files>
-      <File FileName="MediaOrganiser\Media.cs" Line="1" Column="1" />
-      <File FileName="MediaOrganiser\MediaType.cs" Line="1" Column="1" />
-      <File FileName="MediaOrganiser\Program.cs" Line="1" Column="1" />
-      <File FileName="MediaOrganiser\MediaTests.cs" Line="17" Column="1" />
+      <File FileName="MediaOrganiser\Media.cs" Line="56" Column="49" />
+      <File FileName="MediaOrganiser\Program.cs" Line="29" Column="21" />
+      <File FileName="MediaOrganiser\MediaTests.cs" Line="29" Column="13" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MediaOrganiser" expanded="True">
+            <Node name="MediaOrganiser" expanded="True">
+              <Node name="MediaOrganiser" expanded="True">
+                <Node name="MediaTests" expanded="True">
+                  <Node name="TestType" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MediaOrganiser PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

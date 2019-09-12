@@ -4,3 +4,17 @@
 /home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/bin/Debug/MediaOrganiser.pdb
 /home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.exe
 /home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.pdb
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\MediaOrganiser.exe
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\MediaOrganiser.pdb
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\mscorlib.dll
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\nunit.framework.dll
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\nunit.framework.pdb
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\nunit.framework.xml
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\normidna.nlp
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\normnfc.nlp
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\normnfd.nlp
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\normnfkc.nlp
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\bin\Debug\normnfkd.nlp
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\obj\x86\Debug\MediaOrganiser.csprojResolveAssemblyReference.cache
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\obj\x86\Debug\MediaOrganiser.exe
+C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week02\PT7 - Unit Testing MediaOrganiser\MediaOrganiser\MediaOrganiser\obj\x86\Debug\MediaOrganiser.pdb
