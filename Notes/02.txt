@@ -1,0 +1,162 @@
+Review
+Class
+	has field, porperties and methods
+	constructors
+		pass by value, default
+		same name as class, no return type
+	
+Week 2
+Capsule represents a class
+	classes, know things and do things
+
+Principals
+	Encapsulations
+		Hiding information (private, public, protected)
+		Access modifiers
+	Abstraction
+		Process when you identify what information is important in that context, remove unessesary information
+		Get information that can help you solve the problem
+	Inheritence
+	Polymorphism
+
+Example Person class
+
+public class Person() {
+	private int _age;  // - _age: int
+	private string _name; // - _name: string
+
+	public Person(int age, string name){ // + Person(age:int, name: string)
+	_age = age;
+	_name = name;
+	}
+	
+	public int Age { // + Age :: int <<property>>
+	get {return _age;}	
+	set {_age = value;}
+	
+	}
+
+	public string Name {  // + Name :: string <<property>>
+	get {return _name;}	
+	set {_name = value;}
+	
+	}
+
+	public int YearOfBirth () {  // + YearOfBirth(): int
+		return now().year() - _age;
+	}
+}
+
+class Mainclass (){
+	public static void Main(string[] args){
+		Person p1 = new Person(25, "Lewis");
+
+	// change the age to 30
+	p1.Age = 30;
+
+	// change the name to mary
+	p1.Name = "Mary";
+
+	// Print the year of birth
+	Console.writeline(p1.YearOfBirth());
+
+	// print the name of p1
+	Console.writeline("Your name is: " + p1.name);
+	}
+}
+
+Unit Testing
+	verify object functionality
+	smallest testable part
+	use many unit test to check the program functionality
+	broken down into sub parts
+
+Setup
+	Create an object from the class you want to test
+Perform
+	ask the object to do something
+Check the result
+	check its the correct value
+
+NUnit
+	Speed up testing using automated tesing
+	
+[TestFixture()] on testing class
+[Test()] on methods
+	Setup object
+	Perform the test
+	Check the result
+		Assert.AreEqual(,,)
+
+Add NUnit Package in the packages folder
+
+Design Test Implement
+Write the test before you implement
+	Implement them one by one as they all initially fail
+	Keeps track of what you have done
+	Add test to expand functionality
+
+public class Rectangle() {
+	private int _width;
+	private int _height;
+
+	public Width {
+	get {return _width;}
+	set {_width = value;}
+	}
+	
+	public Height {
+	get {return _height;}
+	set {_height = value;}
+	}
+	
+	public Rectangle() {
+		_width = 0;
+		_height = 0;
+	}
+	public int calPerimeter(){
+		return (2 * _height) + (2 * _width);
+	}
+
+	public int calArea() {
+		return _height * _area;
+	}
+}
+
+Create unit tests for the above class
+
+Add the NUnit test package
+
+usingn System;
+using NUnit.Framework;
+[TestFixture]
+public class RectangleTest {
+	[Test]
+	public void TestPermiter() {
+		Rectangle rect1 = new Rectangle();
+		rect1.Width = 5;
+		rect1.height = 4;
+		Assert.AreEqual(18, rect1.calPermieter());
+	}
+}
+
+
+Assert
+StringAssert
+	AreEqualIgnoringCase
+CollectionAssert
+	Good for arrays
+
+class Mainclass(string[] args){
+	Rectangle rect3 = new Rectangle();
+	Console.WriteLine("Enter the Width: ");
+	rect3.Width = int.Parse(Console.ReadLine());
+	Console.WriteLine("Enter the Height: ");
+	rect3.Height = int.Parse(COnsole.ReadLine());
+	Console.WriteLine("Width: " + rect3.Width);
+	Console.WriteLine("Height: " + rect3.Height);
+	Console.WriteLine("Perimeter: " + rect3.calPerimeter());
+	Console.WriteLine("Area: " + rect3.calArea());
+)
+
+

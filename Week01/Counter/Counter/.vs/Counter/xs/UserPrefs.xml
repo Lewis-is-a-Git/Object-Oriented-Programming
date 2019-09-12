@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{9C6604DE-13C7-4BF5-AA17-FD80E2AEFAA0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Counter/Counter.cs">
+    <Files>
+      <File FileName="Counter/Program.cs" Line="35" Column="36" />
+      <File FileName="Counter/Counter.cs" Line="11" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Counter" expanded="True">
+            <Node name="Counter" expanded="True">
+              <Node name="Counter.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Counter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

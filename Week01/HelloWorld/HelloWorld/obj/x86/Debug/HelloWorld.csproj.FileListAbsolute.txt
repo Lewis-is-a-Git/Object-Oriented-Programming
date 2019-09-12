@@ -1,0 +1,6 @@
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/bin/Debug/HelloWorld.pdb
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.csprojAssemblyReference.cache
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.csproj.CoreCompileInputs.cache
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.exe
+/home/lewis/Documents/Uni/OOP Tasks/Week01/HelloWorld/HelloWorld/obj/x86/Debug/HelloWorld.pdb

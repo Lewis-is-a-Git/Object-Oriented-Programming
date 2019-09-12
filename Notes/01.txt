@@ -1,0 +1,34 @@
+Fu Swee Tee (Ms. Fu)
+
+E612 sfu@swinburne.edu.my
+
+SEMSTER TEST W6 Saturday (12th oct)?
+
+Credit tasks in C++
+
+Semester test
+What is the difference between procedural and OOP?
+	Objects know and do things
+	objects encapsulate the function and data
+
+Abstraction
+	whats is the important data and functions?
+	ignore the rest.
+	extract inportant inforamtion and put into a template to map other objects to
+	based on the problem you are solving, multiple interpretations are possible based on context.
+
+Encapsulation
+	use accesor methods to change and evaluate properties.
+Access modifiers
+	public:	
+	protected: only children can access it.
+	Private:
+
+value key word
+	set {name = value;}
+
+constructors
+	initialie objects fields
+	used to build an object from a class
+	same name as the class
+	can be overidden to pass values
