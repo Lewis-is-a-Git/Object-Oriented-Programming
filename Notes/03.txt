@@ -1,0 +1,86 @@
+Object Collaorations
+	many objects interact in a program
+
+Stack vs Heap
+	varaibles are stored in the stack
+	when the scope changes the object is stored in the heap
+
+Atuomatic java collector
+	only in C# and Java
+	must delete objets to free up memory
+
+in C# every new object is a pointer
+	A pointer is a variable used to store the address of another variable
+	int x = 10;
+	int *ptr = &x;  // & = address of ( ), * = value pointed by ( )
+
+UML - Unified Modeling Diagram (Class Diagram)
+	Three main types of Relationships and inheritance
+	The symbols are connected to the parent or (Whole) Class
+
+	Association
+		Two Classses are connected in some way
+		Just like a database (one2many, many2many)
+	Dependancy ( --------> ) Dashed Arrow
+		weakest form  
+		A uses B - A player uses a Dice
+		Dice is passed into a method on the player
+	Aggregation (Shared and Compsite)
+		Shared Aggregation <> Diamond shape
+		The child class is not automatically destroyed when the parent class is destroyed
+		When a game ends the team still exists
+
+		Compsition <> Solid Diamond
+		Strong dependancy
+		The Children are destroyed when the parent is destroyed
+		"is entirely made of"
+	Inheritance (Hollow Triangle)
+		Class B is a Class A
+		Class B extends Class A
+
+Activity 1
+Customer
+
+Association (1 Customer to 1..3 Cars)
+
+Car
+
+
+Exam
+	What is the symbol for (Dependancy, Shared Aggregation)?
+	Theoretical Questions
+
+UML - Sequence Diagram
+	Represent a process and how the objects involved interact
+	Can be interms of engligh or method calls
+
+C# Collections
+	Lists are better arrays
+	using System.Collections.Generic
+	dynamic and hs methods to interact
+	can create arrays of objects
+	List<String> language = new List<string>();
+	langiage.Add("item");
+	langiage.Remove("item");
+		can remove specific item from a list
+		dont need the index
+
+I itiliasation of fields choudl only happen int the constructor	
+	not in the field declarations
+
+foreach (Item item in _items)
+
+C# Indexer
+	allows the caller to acess your object using an index
+	Make a list behave like an array
+
+	Access_modifier Type Keyword [int index]{
+		get {return _items[index];}
+	}
+	example
+	public Item this [int i]{
+		get {return _items[i];} //_items is a list of Items
+	}
+	Always will returnt the object index
+
+	
