@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{871B5A90-103A-46A5-BBB9-07C02B9851D1}|Unit Tests">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.ItemProperties.MyGame PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\ShapeTest.cs">
+    <Files>
+      <File FileName="src\Shape.cs" Line="13" Column="15" />
+      <File FileName="src\GameMain.cs" Line="16" Column="4" />
+      <File FileName="src\Drawing.cs" Line="20" Column="20" />
+      <File FileName="src\DrawingTest.cs" Line="98" Column="14" />
+      <File FileName="src\ShapeTest.cs" Line="26" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MyGame" expanded="True" selected="True">
+            <Node name="MyGame" expanded="True">
+              <Node name="MyGame" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

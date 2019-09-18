@@ -1,6 +1,0 @@
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.csprojAssemblyReference.cache
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.csproj.CoreCompileInputs.cache
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/bin/Debug/MediaOrganiser.exe
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/bin/Debug/MediaOrganiser.pdb
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.exe
-/home/lewis/Documents/Uni/OOP Tasks/Week01/MediaOrganiser/MediaOrganiser/MediaOrganiser/obj/x86/Debug/MediaOrganiser.pdb
