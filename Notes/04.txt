@@ -1,0 +1,139 @@
+Test 26 Oct
+
+Class activity on Collaboration
+using system;
+
+public enum AssetType { RealEstate, Land }
+
+public class Asset {
+	private int _id;
+	private AssetType _type;
+
+	public Asset (int id, AssetType type) {
+		_id = id;
+		_type = type;
+	}
+
+	public int ID {
+		set { _id = value; }
+		get { return _id; }
+	}
+
+	public AssetType Type {
+		set { _type = value; }
+		get { return _type; }
+	}
+}
+
+using Systems.Collections.Generic;
+
+public class Customer {
+	private List<Asset> _assets;
+	
+	public Customer() { 
+		_assets = new List<Asset>; //initialise the list
+	}
+	
+	public void AddAsset (Asset asset) {
+		_assets.add(asset);
+	}
+	
+	public void RemoveAsset (Asset asset) {
+		_assets.remove(asset);
+	}
+
+	public int CountRealEstateAsset {
+		get {
+			int counter = 0;
+			foreach (Asset asset in _assets) {
+				if (asset.Type == AssetType.RealEstate) {
+					counter++;
+				}
+			}
+			return counter;
+		}
+	}
+
+	public List<Asset> Asset {
+		get {return _assets; }
+	}
+}
+
+Inheritance and Polymorphism
+	Abstraction Encapsulation Inheritence and Plymorphism - TEST
+Abstract
+	always public
+	used the abstract keyword
+	cannot create an object from that class
+	within an abstract class
+		will contain abstract an dnon-abstract methods
+	allows other people to use it
+
+public abstract class Shapes {
+	public abstract float Area(); // no implementation
+	public abstract float Circumference(); // no implementation
+
+	public void Output(){
+		Console.WriteLine("Total: ");
+	}
+}
+
+Allows others to inhereit from this class
+and provide thier own implementation
+forces inherited classes to use these rules
+C++ does not have an abstract keyword
+class Shapes {
+	public virtual float Area() = 0;
+	public virtual flaot CIrcumference() = 0;
+}
+
+Interface - hollow triangle
+	general template like abstract
+whatever templates within an interface will always be abstract
+all the methods end with a semicolon;
+public class Object : Interface
+object inherits from the interface
+
+Iheritance
+	the child class inherits all of teh features of the parents
+	the child class can overiide the parents
+class Square : Shapes{ // square is a child of shapes
+	if the class is abstract the child must implement it
+	public override float Area() {}
+	overide the parents method to implement
+
+Polymorphism
+	many forms
+	Use the same method name that provides different implementations
+	static polymorphism
+		method overloading
+		only happens within the same class
+	Dynamic happens in different classes using the same signature
+	lable a class in the parent as virtual
+		means the parent loves oyu more than abstract
+		provides an implementation if the child class doesnt create one
+		the child can override the method
+
+Lists of shapes
+	can put any shape as long as it inherits from shapes
+	
+
+Enumerations cant have fields and behavior
+	better to replace with child classes
+
+public RealEstate(int id, int noOfConst):base(id)
+		:base(id) // calls the constructor of the parent passing the value
+	keyword to access the parent is base.
+	we can now use the keyword is
+		if (a is Object) // if a is an object of type Object
+	
+Test questions
+Coding
+	5 or 6 UML classes, write the program, unit test and main program
+Theory
+	what is the symbol used for dependancy?
+	what is polymorphsm? give an example
+	what is the relationship between these teo classes?
+	
+
+
