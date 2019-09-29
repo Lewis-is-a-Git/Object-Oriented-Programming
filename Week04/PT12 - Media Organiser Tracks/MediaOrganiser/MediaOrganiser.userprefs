@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9E4C52B1-B0F9-45E5-B83D-79B5B9C51C33}|Unit Tests">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaOrganiser\src\PlaylistTest.cs">
+    <Files>
+      <File FileName="MediaOrganiser\src\Playlist.cs" Line="44" Column="25" />
+      <File FileName="MediaOrganiser\src\Program.cs" Line="1" Column="1" />
+      <File FileName="MediaOrganiser\src\Media.cs" Line="33" Column="10" />
+      <File FileName="MediaOrganiser\src\PlaylistTest.cs" Line="48" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MediaOrganiser" expanded="True" selected="True">
+            <Node name="MediaOrganiser" expanded="True">
+              <Node name="MediaOrganiser" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MediaOrganiser PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
