@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="src/Shape.cs">
     <Files>
       <File FileName="src/Shape.cs" Line="26" Column="14" />
-      <File FileName="src/Circle.cs" Line="10" Column="9" />
+      <File FileName="src/Circle.cs" Line="10" Column="1" />
       <File FileName="src/ShapeTest.cs" Line="22" Column="18" />
     </Files>
     <Pads>

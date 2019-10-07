@@ -31,9 +31,9 @@ namespace MediaOrganiser.src
         /// <param name="duration">Duration.</param>
         public Audio(String artist, String album, int duration)
         {
-            Artist = artist;
-            Album = album;
-            Duration = duration;
+            _artist = artist;
+            _album = album;
+            _duration = duration;
         }
 
         /// <summary>
@@ -70,7 +70,7 @@ namespace MediaOrganiser.src
         /// <returns>The play.</returns>
         public override String Play()
         {
-            return Artist + Album + Duration.ToString();
+            return _artist + _album + _duration.ToString();
         }
     }
 }

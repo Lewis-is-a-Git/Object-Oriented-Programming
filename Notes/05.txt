@@ -1,0 +1,134 @@
+Excersise
+public enum Mode {MUTE, UNMUTE);
+
+public class Mobile {
+	private String _manufacturer;
+	private String _model;
+	private int _cost;
+	private Mode _mode;
+
+	public Mobile(String man, String mdl, int c){
+		_manufacturer = man;
+		_model = mdl;
+		_cost = c;
+		_mode = UNMUTE;  !!(Mode.UNMUTE)
+	)
+	
+	public String Manufacturer {
+		set { _manufacturer = value; }
+		get { return _manufacturer; }
+	}
+
+	public String Model {
+		set { _model = value; }
+		get { return _model; }
+	}
+	
+	public int Cost {
+		set { _cost = value; }
+		get { return _cost; }
+	}
+
+	public Mode Mode {
+		get { return _mode; }
+		set { _mode = value; }
+	}
+
+	public Toggle() {          !!(public void Toggle())
+		if (_mode == MUTE) {
+			_mode = UNMUTE;
+		} else {
+			_mode = MUTE;
+		}
+	}
+
+	public void PrintDetails() {
+		String msg = "Manufacturer = " + _manufacturer +
+			     			 " Model = " + _model +
+			   			   " Cost = " + _cost +
+								 " Mode = " + _mode;
+		Console.WriteLine(msg);    !!(better to Consile.WriteLine each seporatly)
+	}
+}
+
+include NUnit.Framework;
+[Test Fixture]                   !!(Put the backets [Test()])
+public class MobileTest {
+	[Test]
+	public void TestToggle(){
+		Mobile mobile = new Mobile("Huawei", "Mate 10", 1000);
+		Assert.AreEqual(Mode.UNMUTE, mobile.Mode);
+		mobile.Toggle();
+		Assert.AreEqual(Mode.MUTE, mobile.Mode);
+	}
+}
+
+public class MainClass {
+	publie void Main(String[] args){  !!(static)
+		Mobile mPhone = new Mobile("OnePlus", "One", 400);
+		mPhone.Cost = 5100;
+		mPhone.Toggle();
+		Console.WriteLine(mPhone.Mode);
+		mPhone.PrintDetails();
+
+		!!(Console.ReadLine();)
+	}
+}
+
+Unified Modelling Language
+Design First
+2 Diagrams
+	Structure and Beahvioral
+
+Abstract class
+<<abstract>>
+Class
+
+Dependance (Students uses Catalog in method)
+Dashed line with arrow
+
+Assosiaction (Students are in one or more StudyUnit)
+Line
+
+Aggregation (Study Unit is a part of study unit)
+Open Diamond points to arroy
+Destroy the catalbog the subject is still there
+
+Composition
+Filled Diamond stick to the whole
+IF destry StudyUnit he strings are also destroyed
+
+Inheritance
+Non filled traingle - attached to parent
+
+
+Interface IAccount {
+	void Deposit(float Amt);
+	float Withdraw(float Amt);
+	float Total{}
+}
+Default is abstract
+public class CurrentAccount : IAccount {
+	public override void Deposit(float Amt) { ... }
+}
+
+UML Sequence Diagram
+High level
+	does not provide implementation
+
+<objectname>:<classname>
+
+Solid Arrows are method calls
+Dotted lines are return values
+
+loops are frame overlays
+if statements are opt with condition in square brackets[]
+
+if-else is alt
+dotted line to breakup the outcomes
+
+
+
+
+
+

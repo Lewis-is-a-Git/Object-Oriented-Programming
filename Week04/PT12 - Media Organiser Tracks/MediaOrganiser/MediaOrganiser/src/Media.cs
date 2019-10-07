@@ -12,8 +12,8 @@ namespace MediaOrganiser
 
         protected Media()
         {
-            Title = "";
-            Size = 0;
+            _title = "";
+            _size = 0;
         }
 
         protected Media(string title, int size)

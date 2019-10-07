@@ -20,8 +20,8 @@ namespace MediaOrganiser.src
         /// <param name="height">Height.</param>
         public Image(int width, int height)
         {
-            PixelsInWidth = width;
-            PixelsInHeight = height;
+            _pixelsInWidth = width;
+            _pixelsInHeight = height;
         }
 
         /// <summary>
@@ -49,7 +49,7 @@ namespace MediaOrganiser.src
         /// <returns>The play.</returns>
         public override String Play()
         {
-            return (PixelsInWidth * PixelsInHeight).ToString();
+            return (_pixelsInWidth * PixelsInHeight).ToString();
         }
     }
 }
