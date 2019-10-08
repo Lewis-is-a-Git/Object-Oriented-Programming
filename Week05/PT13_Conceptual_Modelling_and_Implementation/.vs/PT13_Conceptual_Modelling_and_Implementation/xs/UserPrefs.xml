@@ -1,27 +1,47 @@
-﻿<Properties StartupConfiguration="{D0EF330D-32BB-49ED-BFD7-B7FAAE71B356}|Default">
+﻿<Properties StartupConfiguration="{D0EF330D-32BB-49ED-BFD7-B7FAAE71B356}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.PT13 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PT13/src/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PT13/Testing/TestSalesManagement.cs">
     <Files>
-      <File FileName="PT13/Program.cs" Line="38" Column="70" />
-      <File FileName="PT13/src/OrderStatus.cs" Line="10" Column="1" />
-      <File FileName="PT13/src/ProductType.cs" Line="10" Column="9" />
-      <File FileName="PT13/src/Product.cs" Line="17" Column="10" />
-      <File FileName="PT13/src/Order.cs" Line="36" Column="9" />
-      <File FileName="PT13/src/User.cs" Line="33" Column="53" />
-      <File FileName="PT13/src/Login.cs" Line="37" Column="53" />
-      <File FileName="PT13/src/Admin.cs" Line="19" Column="1" />
-      <File FileName="PT13/src/Sales.cs" Line="9" Column="6" />
-      <File FileName="PT13/src/MainMenu.cs" Line="224" Column="60" />
-      <File FileName="PT13/src/Delivery.cs" Line="10" Column="26" />
-      <File FileName="PT13/src/Customer.cs" Line="10" Column="18" />
+      <File FileName="PT13/Program.cs" Line="45" Column="55" />
+      <File FileName="PT13/src/Product.cs" Line="16" Column="82" />
+      <File FileName="PT13/src/Order.cs" Line="51" Column="14" />
+      <File FileName="PT13/src/User.cs" Line="24" Column="9" />
+      <File FileName="PT13/src/Login.cs" Line="33" Column="53" />
+      <File FileName="PT13/src/Admin.cs" Line="22" Column="51" />
+      <File FileName="PT13/src/Sales.cs" Line="88" Column="53" />
+      <File FileName="PT13/src/MainMenu.cs" Line="30" Column="22" />
+      <File FileName="PT13/src/Delivery.cs" Line="17" Column="45" />
+      <File FileName="PT13/src/Customer.cs" Line="35" Column="17" />
+      <File FileName="PT13/Testing/TestProduct.cs" Line="54" Column="14" />
+      <File FileName="PT13/Testing/TestLogin.cs" Line="35" Column="1" />
+      <File FileName="PT13/Testing/TestMainMenu.cs" Line="36" Column="36" />
+      <File FileName="PT13/Testing/UserManagement.cs" Line="8" Column="16" />
+      <File FileName="PT13/Testing/TestUserManagement.cs" Line="5" Column="1" />
+      <File FileName="PT13/Testing/TestStockManagement.cs" Line="23" Column="83" />
+      <File FileName="PT13/Testing/TestStockAvailability.cs" Line="17" Column="65" />
+      <File FileName="PT13/Testing/TestOrder.cs" Line="36" Column="30" />
+      <File FileName="PT13/Testing/TestSalesManagement.cs" Line="28" Column="13" />
+      <File FileName="PT13/Testing/TestDeliveryManagement.cs" Line="33" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PT13_Conceptual_Modelling_and_Implementation" expanded="True">
             <Node name="PT13" expanded="True">
-              <Node name="src" expanded="True">
-                <Node name="MainMenu.cs" selected="True" />
+              <Node name="src" expanded="True" />
+              <Node name="Testing" expanded="True">
+                <Node name="TestSalesManagement.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PT13_Conceptual_Modelling_and_Implementation" expanded="True" selected="True">
+            <Node name="PT13" expanded="True">
+              <Node name="PT13" expanded="True">
+                <Node name="TestUserManagement" expanded="True" />
               </Node>
             </Node>
           </Node>

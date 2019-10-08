@@ -9,54 +9,37 @@ namespace PT13.src
 {
     public class MainMenu
     {
+        private User _currentUser;
         private String _credentials;
-        //private String _userName;
         private List<User> _users;
+        private List<Product> _products;
+        public string UserName { get => _currentUser.UserName; }
+        public List<Product> Products { get => _products; }
+        public User CurrentUser { get => _currentUser; }
 
-        public MainMenu()
-        {
-        }
-
-        public bool Login(List<User> users)
-        {
-
-            string userName, password;
-            Console.WriteLine("Please Login..");
-            Console.WriteLine("Username: ");
-            userName = Console.ReadLine();
-            Console.WriteLine("Password: ");
-            password = Console.ReadLine();
-
-            _users = users;
-            User user = users.Find(u => u.UserName == userName);
-            if (user == null) { return false; }
-            _credentials = user.Credentials;
-            bool success = false;
-            if (user.Password == password)
-            {
-                success = true;
-            }
-            return success;
-        }
+        // public MainMenu(){}
 
         public bool Login(List<User> users, string userName, string password)
         {
             _users = users;
             User user = users.Find(u => u.UserName == userName);
+            Console.Clear();
             if (user == null) { return false; }
-            _credentials = user.Credentials;
+
             bool success = false;
             if (user.Password == password)
             {
                 success = true;
+                _currentUser = user;
+                _credentials = user.Credentials;
             }
             return success;
         }
 
-        public string UserManagement()
+        public List<User> UserManagement(List<User> users)
         {
             string choice = "";
-            if (_credentials == "admin")
+            if (IsAdmin())
             {
                 Console.WriteLine("Choose a Task...");
                 Console.WriteLine("To create a new user press: create");
@@ -64,34 +47,30 @@ namespace PT13.src
                 Console.WriteLine("To Delete a user press: delete");
                 choice = Console.ReadLine().ToLower();
             }
-            else
+            switch (choice)
             {
-                Console.WriteLine("Cannot access User Management");
-                choice = "";
+                case ("create"):
+                    users = (_currentUser as Admin).CreateUser(users);
+                    break;
+                case ("edit"):
+                    users = (_currentUser as Admin).EditUser(users);
+                    break;
+                case ("delete"):
+                    Console.WriteLine("Enter username to delete: ");
+                    string deleteUserName = Console.ReadLine();
+                    users = (_currentUser as Admin).DeleteUser(users, deleteUserName);
+                    break;
+                default:
+                    Console.WriteLine("Cannot access User Management");
+                    break;
             }
-
-            if (choice == "create")
-            {
-                Console.WriteLine("Choose what kind of user to create...");
-                Console.WriteLine("To create a new admin press: admin");
-                Console.WriteLine("To create a new sales press: sales");
-                Console.WriteLine("To create a new delivery press: delivery");
-                Console.WriteLine("To create a new customer press: customer");
-            }
-            if (choice == "edit" || choice == "delete")
-            {
-                Console.WriteLine("Enter username: ");
-            }
-
-            return choice;
+            return users;
         }
 
-
-
-        public string StockManagement()
+        public List<Product> StockManagement(List<Product> products)
         {
             string choice = "";
-            if (_credentials == "sales")
+            if (IsSales())
             {
                 Console.WriteLine("Choose a Task...");
                 Console.WriteLine("To add a new product press: add");
@@ -102,41 +81,53 @@ namespace PT13.src
             else
             {
                 Console.WriteLine("Cannot access User Management");
-                choice = "";
             }
-            if (choice == "add")
+            switch (choice)
             {
-                Console.WriteLine("Creating a new product...");
+                case ("add"):
+                    products = (_currentUser as Sales).AddProduct(products);
+                    break;
+                case ("edit"):
+                    products = (_currentUser as Sales).EditProduct(products);
+                    break;
+                case ("delete"):
+                    products = (_currentUser as Sales).DeleteProduct(products);
+                    break;
             }
-            if (choice == "edit" || choice == "delete")
-            {
-                Console.WriteLine("Enter product name: ");
-            }
-            return choice;
-
+            return products;
         }
-        public string StockAvailability()
+        public void StockAvailability(List<Product> products)
         {
             Console.WriteLine("Enter product name to check availablity: ");
-            return Console.ReadLine();
-
+            Product product = products.Find(p => p.Name == Console.ReadLine());
+            Console.WriteLine("There are " + product.Quantity + " " + product.Name + "(s) available");
         }
 
-        public string OrderPlacement()
+        public List<Order> OrderPlacement(List<Order> orders, List<Product> products, string currentUser)
         {
             string choice = "";
-            if (_credentials == "customer")
+            if (IsCustomer())
             {
                 Console.WriteLine("To create a new order enter: create");
                 Console.WriteLine("To check an order status enter: status");
                 choice = Console.ReadLine();
             }
-
-            return choice;
+            switch (choice)
+            {
+                case ("create"):
+                    orders = (_currentUser as Customer).CreateOrder(orders, products, currentUser);
+                    products = (_currentUser as Customer).Products;
+                    break;
+                case ("check"):
+                    (_currentUser as Customer).CheckOrder(orders, currentUser);
+                    break;
+            }
+            _products = products;
+            return orders;
         }
         public List<Order> SalesManagement(List<User> users, List<Order> orders, List<Product> products)
         {
-            if (_credentials == "Sales")
+            if (IsSales())
             {
                 Console.WriteLine("Pleas select function...");
                 Console.WriteLine("To view a list of orders: orders");
@@ -145,87 +136,13 @@ namespace PT13.src
                 switch (Console.ReadLine().ToLower())
                 {
                     case ("orders"):
-                        foreach (Order o in orders)
-                        {
-                            Console.WriteLine("Order ID: " + o.OrderID + " Oder name: " + o.OrderName + " Order Status: " + o.OrderStatus.ToString());
-                        }
+                        (_currentUser as Sales).DisplayOrders(orders, products);
                         break;
                     case ("status"):
-                        foreach (Order o in orders)
-                        {
-                            Console.WriteLine("Order ID: " + o.OrderID + " Oder name: " + o.OrderName + " Order Status: " + o.OrderStatus.ToString());
-                            foreach (Product p in o.OrderList)
-                            {
-                                Product checkQuantity = products.Find(c => c.Name == p.Name);
-
-                                if (p.Quantity <= checkQuantity.Quantity)
-                                {
-                                    Console.WriteLine(p.Name + " is in stock");
-                                }
-                                else
-                                {
-                                    Console.WriteLine(p.Name + " is unavailable");
-                                }
-                            }
-                            Console.WriteLine("To update order status, enter order ID: ");
-                            string orderID = Console.ReadLine();
-                            Order updateSatusOrder = orders.Find(u => u.OrderID == orderID);
-                            Console.WriteLine("Enter New status for order " + orderID + ": ");
-                            Console.WriteLine("Options: NEW, PROCESSING, SHIPPING, DELIVERED, CANCELED");
-                            string status = Console.ReadLine().ToUpper();
-                            OrderStatus actual = OrderStatus.NEW;
-                            switch (status)
-                            {
-                                case ("NEW"):
-                                    actual = OrderStatus.NEW;
-                                    break;
-                                case ("PROCESSING"):
-                                    actual = OrderStatus.PROCESSING;
-                                    break;
-                                case ("SHIPPING"):
-                                    actual = OrderStatus.SHIPPING;
-                                    break;
-                                case ("DELIVERED"):
-                                    actual = OrderStatus.DELIVERED;
-                                    break;
-                                case ("CANCELED"):
-                                    actual = OrderStatus.CANCELED;
-                                    break;
-                                default:
-                                    Console.WriteLine("entry invalid order is set to new.");
-                                    break;
-                            }
-
-                            orders.Remove(updateSatusOrder);
-                            updateSatusOrder.OrderStatus = actual;
-                            orders.Add(updateSatusOrder);
-                        }
+                        orders = (_currentUser as Sales).UpdateOrderStatus(orders);
                         break;
                     case ("sales"):
-                        Console.WriteLine("Enter the Product Type: ");
-                        Console.WriteLine("Options: bus, car, motorcycle, truck");
-                        string productType = Console.ReadLine().ToLower();
-                        ProductType actualType = ProductType.BUS;
-                        switch (productType)
-                        {
-                            case ("car"):
-                                actualType = ProductType.CAR;
-                                break;
-                            case ("motorcycle"):
-                                actualType = ProductType.MOTORCYCLE;
-                                break;
-                            case ("truck"):
-                                actualType = ProductType.TRUCK;
-                                break;
-                            default:
-                                Console.WriteLine("Invalid product type. Using BUS.");
-                                break;
-                        }
-                        List<Product> productsOfType = products.FindAll(t => t.ProductType == actualType);
-                        foreach (Product p in productsOfType)
-                        {
-                            Console.WriteLine("Product Name: " + p.Name + " Product Quantity: " + p.Quantity);
-                        }
+                        (_currentUser as Sales).PrintSalesDetails(products);
                         break;
                 }
             }
@@ -237,41 +154,12 @@ namespace PT13.src
             return orders;
         }
 
-        public List<Order> DeliveryManagement(List<Order> orders, string orderID)
+        public List<Order> DeliveryManagement(List<Order> orders)
         {
 
-            if (_credentials == "Delivery")
+            if (IsDelivery())
             {
-                Order updateSatusOrder = orders.Find(o => o.OrderID == orderID);
-                Console.WriteLine("Enter New status for order " + orderID + ": ");
-                Console.WriteLine("Options: NEW, PROCESSING, SHIPPING, DELIVERED, CANCELED");
-                string status = Console.ReadLine().ToUpper();
-                OrderStatus actual = OrderStatus.NEW;
-                switch (status)
-                {
-                    case ("NEW"):
-                        actual = OrderStatus.NEW;
-                        break;
-                    case ("PROCESSING"):
-                        actual = OrderStatus.PROCESSING;
-                        break;
-                    case ("SHIPPING"):
-                        actual = OrderStatus.SHIPPING;
-                        break;
-                    case ("DELIVERED"):
-                        actual = OrderStatus.DELIVERED;
-                        break;
-                    case ("CANCELED"):
-                        actual = OrderStatus.CANCELED;
-                        break;
-                    default:
-                        Console.WriteLine("entry invalid order is set to new.");
-                        break;
-                }
-
-                orders.Remove(updateSatusOrder);
-                updateSatusOrder.OrderStatus = actual;
-                orders.Add(updateSatusOrder);
+                orders = (_currentUser as Delivery).UpdateOrderStatus(orders);
             }
             else
             {
@@ -280,5 +168,9 @@ namespace PT13.src
             return orders;
         }
 
+        public bool IsAdmin() { return _currentUser is Admin; }
+        public bool IsCustomer() { return _currentUser is Customer; }
+        public bool IsDelivery() { return _currentUser is Delivery; }
+        public bool IsSales() { return _currentUser is Sales; }
     }
 }

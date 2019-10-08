@@ -1,0 +1,98 @@
+Excercise
+
+public class Professor : Person {
+	private double _salary;
+	
+	public Professor(string name, string phone, string email, double salary): base (name, phone, email) {
+		_salary = salary;
+	} 
+	
+	public override void PurchaseParkingPass(){
+		Console.WriteLine("Annual Parking fee is RM700");
+	}
+	public pverride Display(){
+		Console.WriteLine(_name + _phone + _email + double.Parse(_salary)); !!(base._name, base._phone, base._email and dont need parse)
+	}
+}
+
+public class Student : Person {
+	private string _studentNum;
+	private string _course;
+	
+	public Student (string name, string phone, string email, string studentNum): base (name, phone, email) {
+		_studetnNum = studentNum;
+	}
+	
+	public void Enrol(string course){
+		_course = course;
+	}
+	
+	public override void PurchaseParkingPass(){
+		Console.WriteLine("Monthly parking fee is RM50");
+	}
+	public pverride Display(){
+		Console.WriteLine(_name + _phone + _email + _studentNum + _course); !!(base._name, base._phone, base._email)
+	}
+}
+
+public abstract class Person {
+	protected string _name;
+	protected string _phone;
+	protected string _email;
+	
+	piublic Person(string name, string phone, string email){
+		_name = name;
+		_phone = phone;
+		_email = email;
+	}
+	
+	public abstract void PurchaseParkingPass();
+	public abstract void Display();	
+}
+
+using system;
+using system.collections.generic;
+public MainClass {
+	public void Main(string[] args){  !!(public static void Main)
+		List<Person> people = new List<Person>();
+		Student s1 = new Student("lewis", "123", "lewis@lewis.com", "123");
+		s1.Enrol("BCS");
+		Professor p1 = new Professor("wendy", "123", "wendy@g.com", 100);
+		people.Add(s1);
+		people.Add(p1);
+		foreach(Person p in people){
+			p.Details();
+			p.PurchaseParkingPass();
+		}
+	}
+}
+
+Achieving good object oriented design
+High Cohesion - means class effectivly uses all data
+
+Loosly coupled - not depending on other parts of the software
+
+TEST!!
+Abstraction, interface, inheritance, polymorphism
+
+operator overloading
+public static Box operator+ (Box b, Box c){
+	Box box = new Box();
+	box.length = b.length + c.length;
+	return box;
+	}
+
+Test format
+Section A
+	like excersise today
+	unit tests + main program
+	
+Section B
+	theoretical
+	UML symbols
+	4 principals of OOP
+
+Bring pencils and pens
+bring own stapler
+bring hoodie
+

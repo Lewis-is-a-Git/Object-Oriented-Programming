@@ -51,6 +51,7 @@ namespace PT13
             {
                 addProduct.Quantity = quantity;
                 _orderList.Add(addProduct);
+                CalculatePrice();
             }
             else
             {

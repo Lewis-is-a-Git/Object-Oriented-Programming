@@ -22,10 +22,7 @@ namespace PT13.src
             _password = Console.ReadLine();
         }
 
-        public Login(string userName) : this(userName, "password")
-        {
-
-        }
+        public Login(string userName) : this(userName, "password") { }
 
         public Login(string userName, string password)
         {
@@ -35,33 +32,6 @@ namespace PT13.src
 
         public string UserName { get => _userName; }
         public string Password { get => _password; }
-        public string Credentials
-        {
-            // Login Verification
-            get
-            {
-                string credentials = "";
-                if (_userName == "Admin" && _password == "Admin")
-                {
-                    credentials = "admin";
-                }
-                if (_userName == "Sales" && _password == "Sales")
-                {
-                    credentials = "sales";
-                }
-                if (_userName == "Delivery" && _password == "Delivery")
-                {
-                    credentials = "delivery";
-                }
-                if (_userName == "Customer" && _password == "Customer")
-                {
-                    credentials = "customer";
-                }
-
-                return credentials;
-
-            }
-        }
-
     }
+
 }

@@ -14,31 +14,31 @@ namespace PT13.src
 
         protected User()
         {
-            _loginID = new Login();
-            _credentials = _loginID.Credentials;
-            _userName = _loginID.UserName;
-            _password = _loginID.Password;
+            LoginID = new Login();
         }
 
         protected User(string username, string password)
         {
-            _loginID = new Login(username, password);
-            _credentials = _loginID.Credentials;
-            _userName = _loginID.UserName;
-            _password = _loginID.Password;
+            LoginID = new Login(username, password);
         }
 
         public string Credentials { get => _credentials; set => _credentials = value; }
         public string UserName { get => _userName; set => _userName = value; }
         public string Password { get => _password; }
+        internal Login LoginID
+        {
+            set
+            {
+                _loginID = value;
+                _userName = _loginID.UserName;
+                _password = _loginID.Password;
+            }
+        }
 
         public void ResetPassword()
         {
-            string credentials = _credentials;
-            _loginID = new Login(_userName);
+            LoginID = new Login(_userName);
             Console.WriteLine("Password reset to: password");
-            _credentials = credentials;
         }
-
     }
 }
