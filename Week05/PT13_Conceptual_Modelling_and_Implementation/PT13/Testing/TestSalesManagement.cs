@@ -26,10 +26,20 @@ namespace PT13.Testing
                 oil
             };
 
+            string customerUsername = "User";
 
-            // Create Orders
+            // Create Order
+            List<Order> orders = new List<Order>();
+            Order order = new Order(customerUsername, products);
+            order.AddProduct(new Product("5W-30", 23.54m, 3, ProductType.TRUCK), 2);
+            orders.Add(order);
 
-            Assert.AreEqual(true, false); // Not implemented yet
+            // Delivery Find Orders with 
+            Sales s = new Sales("User", "Pass");
+            orders = s.UpdateOrderStatus(orders, order, "PROCESSING");
+            Order updatedOrder = orders.Find(o => o.OrderName == customerUsername);
+
+            Assert.AreEqual(OrderStatus.PROCESSING, updatedOrder.OrderStatus, "OrderStatus has been updated");
         }
     }
 }

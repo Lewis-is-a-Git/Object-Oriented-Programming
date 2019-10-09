@@ -54,7 +54,6 @@
     <Compile Include="Testing\TestMainMenu.cs" />
     <Compile Include="Testing\TestUserManagement.cs" />
     <Compile Include="Testing\TestStockManagement.cs" />
-    <Compile Include="Testing\TestStockAvailability.cs" />
     <Compile Include="Testing\TestOrder.cs" />
     <Compile Include="Testing\TestSalesManagement.cs" />
     <Compile Include="Testing\TestDeliveryManagement.cs" />

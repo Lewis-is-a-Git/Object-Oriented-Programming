@@ -124,6 +124,19 @@ namespace PT13.src
             Console.WriteLine("Enter New status for order " + orderID + ": ");
             Console.WriteLine("Options: NEW, PROCESSING, SHIPPING, DELIVERED, CANCELED");
             string status = Console.ReadLine().ToUpper();
+
+            orders = UpdateOrderStatus(orders, updateSatusOrder, status);
+            return orders;
+        }
+
+        /// <summary>
+        /// Second Update order status to bypass the console readline, for testing
+        /// </summary>
+        /// <returns>The order status.</returns>
+        /// <param name="updateSatusOrder">Update satus order.</param>
+        /// <param name="status">Status.</param>
+        public List<Order> UpdateOrderStatus(List<Order> orders, Order updateSatusOrder, string status)
+        {
             OrderStatus actual = OrderStatus.NEW;
             switch (status)
             {
@@ -146,7 +159,6 @@ namespace PT13.src
                     Console.WriteLine("entry invalid order is set to new.");
                     break;
             }
-
             orders.Remove(updateSatusOrder);
             updateSatusOrder.OrderStatus = actual;
             orders.Add(updateSatusOrder);

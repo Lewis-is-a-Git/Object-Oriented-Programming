@@ -20,8 +20,45 @@ namespace PT13.Testing
         [Test]
         public void TestAddNewProduct()
         {
-            // Test that adding stock to an order reduces the quantity of products
-            Assert.AreEqual(true, false); // Not implemented yet
+            // Create Customer
+            string customerUsername = "User";
+            Customer customer = new Customer(customerUsername, "pass");
+
+            // Create Products in stock
+            Product oil = new Product("5W-30", 23.54m, 3, ProductType.TRUCK);
+            string orderedProductName = "10W-40";
+            int orderedProductQuantity = 34;
+            int numberOrdered = 30;
+            List<Product> products = new List<Product>
+            {
+                // Products: string name, decimal price, int quantity, ProductType type
+                new Product(orderedProductName, 3.50m, orderedProductQuantity, ProductType.CAR),
+                new Product("15W-5", 40.2m, 2, ProductType.MOTORCYCLE),
+                oil
+            };
+
+            // Create Order
+            List<Order> orders = new List<Order>();
+            Order order = new Order(customerUsername, products);
+            order.AddProduct(oil, 2);
+
+            // Add Order to the orders list
+            List<string> productNames = new List<string>
+            {
+                orderedProductName
+            };
+            List<int> productQuantity = new List<int>
+            {
+                numberOrdered
+            };
+            orders = customer.CreateOrder(orders, productNames, productQuantity, products, customer.UserName);
+            Assert.IsNotEmpty(orders, "Order Created");
+
+            Product orderedProduct = products.Find(p => p.Name == orderedProductName);
+
+            Assert.AreEqual(orderedProductQuantity - numberOrdered, orderedProduct.Quantity, "Adding Items to an order takes it from stock.");
+
+
         }
 
 
