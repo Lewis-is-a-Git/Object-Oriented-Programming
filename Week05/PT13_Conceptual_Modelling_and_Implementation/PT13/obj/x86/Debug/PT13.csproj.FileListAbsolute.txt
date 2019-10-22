@@ -3,6 +3,7 @@
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/bin/Debug/nunit.framework.dll
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/bin/Debug/nunit.framework.pdb
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/bin/Debug/nunit.framework.xml
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/obj/x86/Debug/PT13.csprojAssemblyReference.cache
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/obj/x86/Debug/PT13.csproj.CopyComplete
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/obj/x86/Debug/PT13.exe
 /home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week05/PT13_Conceptual_Modelling_and_Implementation/PT13/obj/x86/Debug/PT13.pdb

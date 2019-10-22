@@ -13,11 +13,10 @@ namespace PT13.src
         private String _credentials;
         private List<User> _users;
         private List<Product> _products;
+
         public string UserName { get => _currentUser.UserName; }
         public List<Product> Products { get => _products; }
         public User CurrentUser { get => _currentUser; }
-
-        // public MainMenu(){}
 
         public bool Login(List<User> users, string userName, string password)
         {

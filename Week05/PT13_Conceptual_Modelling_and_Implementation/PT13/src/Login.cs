@@ -22,6 +22,7 @@ namespace PT13.src
             _password = Console.ReadLine();
         }
 
+        // Used to reset password
         public Login(string userName) : this(userName, "password") { }
 
         public Login(string userName, string password)

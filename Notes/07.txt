@@ -1,0 +1,73 @@
+Introduction to C++
+
+OOP concepts are the same in any OOP language
+the only thing that changes is the syntax
+
+Encapsulation, Polymorhpism, Abstraction, inheritance
+
+any objet that is created ust be destroyed
+There is no garbage collector
+
+Encapsulation
+	Information hiding
+	Access modivfiers
+	Seporate implemetation form interface
+
+C++ header file AND implementation file
+two seporate files
+interface and implementation
+
+class Student {
+	private: // fields
+		std::string name
+	public: // methods
+	...
+};
+
+Inheritance
+inheritance is always public
+parents can be inherited through diffrent access modifiers
+	converts to less public
+
+Polymorphism
+can only happen when there is inheritance
+method overloading
+same name
+method overiding
+only happens when there is inheritance
+the child method overrides the parents method
+
+C++ has constructors and destructors
+pure virtual method (abstract)
+virtual void draw() = 0;
+
+parent (abstract classes can point to child objects for thier implemenatation
+Polygon *poly1 = &rectangle;
+
+Abstraction (pure Virtual)
+Identify mportant information
+expressed in encapsulation and inheritance
+pure virtual class only has pure virtual methods
+
+When creating a dynamic pointer to object
+use the keyword delete to destroy pointers
+    int a = 4;
+    cout << "a: " << a << "\n";
+    int& b = a;
+    cout << "b: " << b << "\n"; // reference
+    int* c = &a;
+    cout << "c: " << c << "\n"; // pointer
+    int d = *c;
+    cout << "d: " << d << "\n"; // d equals value of c
+
+implicit method
+Already Created for us, can be overriden
+default
+copy
+destructor
+assignment
+
+Vector <vector>
+dynamic list
+
+

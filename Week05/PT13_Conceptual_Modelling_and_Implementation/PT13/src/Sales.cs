@@ -41,7 +41,7 @@ namespace PT13.src
             return products;
         }
 
-        internal List<Product> EditProduct(List<Product> products)
+        public List<Product> EditProduct(List<Product> products)
         {
             Console.WriteLine("Enter Product name to Edit: ");
             string EditproductName = Console.ReadLine();
