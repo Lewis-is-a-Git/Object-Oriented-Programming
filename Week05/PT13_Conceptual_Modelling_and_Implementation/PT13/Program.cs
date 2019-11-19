@@ -16,18 +16,26 @@ namespace PT13
             List<User> users = new List<User>();
             List<Order> orders = new List<Order>();
 
-            Admin RootAdmin = new Admin("Admin", "Admin")
-            {
-                Credentials = "admin"
-            };
+            // Create initial user to access the program
+            Administrator RootAdmin = new Administrator("admin", "admin");
             users.Add(RootAdmin);
             MainMenu mainMenu = new MainMenu();
 
+            // Add dummy data to the program for demonstration
+            // Add some products to make orders from
             products.Add(new Product("Bus Oil", 5.00m, 30, ProductType.BUS));
-            products.Add(new Product("Bike Oil", 2.00m, 34, ProductType.MOTORCYCLE));
+            products.Add(new Product("Bike Oil", 2.00m, 30, ProductType.MOTORCYCLE));
 
+            // add two orders to the order list
+            Customer cus = new Customer("Customer", "pass");
+            (orders, products) = cus.CreateOrder(orders, new List<string>() { "Bus Oil" },
+                new List<int>() { 10 }, products, "Customer");
+            (orders, products) = cus.CreateOrder(orders, new List<string>() { "Bike Oil" },
+                new List<int>() { 10 }, products, "Customer");
+            Console.Clear(); // Clear Screen to hide adding dummy data
+
+            // start the program logged out with no username
             string currentUser = "";
-
             string menuChoice = "logout";
             while (true)
             {
@@ -37,29 +45,34 @@ namespace PT13
                     string userName, password;
                     do
                     {
-
                         Console.WriteLine("Please Login..");
                         Console.WriteLine("Username: ");
                         userName = Console.ReadLine();
                         Console.WriteLine("Password: ");
                         password = Console.ReadLine();
+                        Console.Clear();
                     }
                     while (!mainMenu.Login(users, userName, password));
-                    Console.Clear();
                 }
+                // set current username
                 currentUser = mainMenu.UserName;
-                Console.WriteLine("Enter a command to select a function: ");
-                Console.WriteLine("User Management: user");
-                Console.WriteLine("Stock Management: stock");
-                Console.WriteLine("Sales Managemen: sales");
-                Console.WriteLine("Delivery Management: delivery");
-                Console.WriteLine("Order Placement: order");
-                Console.WriteLine("Check Stock Availability: check");
+                // Display Main Menu
+                Console.WriteLine("Welcome " + currentUser);
+                Console.WriteLine("----------------------MAIN MENU-----------------------");
+                Console.WriteLine("| Enter a command to select a function...            |");
+                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("| User Management:     user                          |");
+                Console.WriteLine("| Stock Management:    stock                         |");
+                Console.WriteLine("| Stock Availability:  check                         |");
+                Console.WriteLine("| Order Management:    order                         |");
+                Console.WriteLine("| Sales Management:    sales                         |");
+                Console.WriteLine("| Delivery Management: delivery                      |");
+                Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine("Logout: logout");
-                Console.WriteLine("Exit: exit");
-
+                Console.WriteLine("Exit:   exit");
+                Console.Write("Command: ");
                 menuChoice = Console.ReadLine().ToLower();
-                if (menuChoice == "exit") { Environment.Exit(0); }
+                Console.Clear();
 
                 switch (menuChoice)
                 {
@@ -74,8 +87,7 @@ namespace PT13
                         mainMenu.StockAvailability(products);
                         break;
                     case ("order"):
-                        orders = mainMenu.OrderPlacement(orders, products, currentUser);
-                        products = mainMenu.Products;
+                        (orders, products) = mainMenu.OrderManagement(orders, products, currentUser);
                         break;
                     case ("sales"):
                         orders = mainMenu.SalesManagement(users, orders, products);
@@ -87,6 +99,9 @@ namespace PT13
                     case ("logout"):
                         Console.Clear();
                         Console.WriteLine("Logging out...");
+                        break;
+                    case ("exit"):
+                        Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Enter a command from the list...");

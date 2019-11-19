@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{7E8F3868-63F9-4709-ACA4-3748ABE14188}|Default">
+  <MonoDevelop.Ide.ItemProperties.CT1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CT1/Program.cs">
+    <Files>
+      <File FileName="CT1/Program.cs" Line="20" Column="46" />
+      <File FileName="CT1/User.cs" Line="10" Column="30" />
+      <File FileName="CT1/Teacher.cs" Line="57" Column="1" />
+      <File FileName="CT1/Question.cs" Line="51" Column="23" />
+      <File FileName="CT1/Student.cs" Line="23" Column="14" />
+      <File FileName="CT1/QuestionSet.cs" Line="14" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CT1" expanded="True">
+            <Node name="CT1" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

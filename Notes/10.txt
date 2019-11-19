@@ -1,0 +1,67 @@
+Exceptions and Errors
+bad_alloc thrown by new operator
+  no memory space
+  
+  
+logic_error
+  length_error
+    a string is too long
+  domain_error
+    can do sqrt(-1)
+  out_of_range
+    thrown by vector
+    index is out of range
+  invalid_arguemnts
+    wrong user input type
+    
+runtime_error
+  range_error
+    storing a value out of range of an array
+  overflow_error
+    the value is too large for int
+  underflow_error
+    float or double decimal point digits is too large
+    double is bigger
+  
+bad_cast
+  thrown by dynmic cast
+  
+  
+can have multiple throws in a single try statement
+can have mutiple catches from a try statement
+  catch different types of errors
+  
+public class PowerBank {
+  private int _charge;
+
+  public Power(){
+
+  }
+
+  public int getCharge() {
+
+  }
+
+  public void useCharge(int power){
+    
+  }
+
+}
+
+to make the program run in windows
+open the debug folder
+copt this file from mingw folder
+libstdc++6.dll
+run the exe
+
+
+PT14 (Report)
+Fill out the report header
+tick box for expect grade
+can keep the introduction
+Overview of pieces
+  list all the works completed
+  PTs/ Supplimentaries
+  
+soft copy submission
+     

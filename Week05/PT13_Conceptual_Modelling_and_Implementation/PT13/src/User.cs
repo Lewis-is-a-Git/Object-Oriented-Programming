@@ -5,40 +5,57 @@
 using System;
 namespace PT13.src
 {
+    /// <summary>
+    /// User.
+    /// </summary>
     public abstract class User
     {
         protected String _userName;
-        private Login _loginID;
-        protected String _credentials;
         protected String _password;
 
-        protected User()
+        protected User(string userName, string password)
         {
-            LoginID = new Login();
+            _userName = userName;
+            _password = password;
         }
 
-        protected User(string username, string password)
-        {
-            LoginID = new Login(username, password);
-        }
-
-        public string Credentials { get => _credentials; set => _credentials = value; }
-        public string UserName { get => _userName; set => _userName = value; }
+        public string UserName { get => _userName; }
         public string Password { get => _password; }
-        internal Login LoginID
+
+        /// <summary>
+        /// Resets the password.
+        /// </summary>
+        /// <param name="oldPassword">Old password.</param>
+        /// <param name="newPassword">New password.</param>
+        internal void ResetPassword(string oldPassword, string newPassword)
         {
-            set
+            if (_password == oldPassword)
             {
-                _loginID = value;
-                _userName = _loginID.UserName;
-                _password = _loginID.Password;
+                _password = newPassword;
+                Console.WriteLine("Password updated.");
+            }
+            else
+            {
+                Console.WriteLine("Cannot update password.");
             }
         }
 
-        public void ResetPassword()
+        /// <summary>
+        /// Edits the user.
+        /// </summary>
+        /// <param name="password">Password.</param>
+        /// <param name="newUsername">New username.</param>
+        internal void EditUser(string password, string newUsername)
         {
-            LoginID = new Login(_userName);
-            Console.WriteLine("Password reset to: password");
+            if (_password == password)
+            {
+                _userName = newUsername;
+                Console.WriteLine("Username updated.");
+            }
+            else
+            {
+                Console.WriteLine("Cannot update username.");
+            }
         }
     }
 }

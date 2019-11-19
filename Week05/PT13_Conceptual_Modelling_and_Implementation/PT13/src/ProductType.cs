@@ -5,6 +5,9 @@
 using System;
 namespace PT13.src
 {
+    /// <summary>
+    /// Product type.
+    /// </summary>
     public enum ProductType
     {
         CAR,

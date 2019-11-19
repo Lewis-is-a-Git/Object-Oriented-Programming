@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.inc": "php",
+        "iostream": "cpp"
+    }
+}

@@ -43,20 +43,19 @@
     <Compile Include="src\Order.cs" />
     <Compile Include="src\Product.cs" />
     <Compile Include="src\User.cs" />
-    <Compile Include="src\Login.cs" />
-    <Compile Include="src\Admin.cs" />
-    <Compile Include="src\Sales.cs" />
+    <Compile Include="src\Administrator.cs" />
+    <Compile Include="src\SalesPerson.cs" />
     <Compile Include="src\MainMenu.cs" />
-    <Compile Include="src\Delivery.cs" />
+    <Compile Include="src\DeliveryPerson.cs" />
     <Compile Include="src\Customer.cs" />
-    <Compile Include="Testing\TestProduct.cs" />
-    <Compile Include="Testing\TestLogin.cs" />
-    <Compile Include="Testing\TestMainMenu.cs" />
-    <Compile Include="Testing\TestUserManagement.cs" />
-    <Compile Include="Testing\TestStockManagement.cs" />
-    <Compile Include="Testing\TestOrder.cs" />
-    <Compile Include="Testing\TestSalesManagement.cs" />
-    <Compile Include="Testing\TestDeliveryManagement.cs" />
+    <Compile Include="Testing\ProductTest.cs" />
+    <Compile Include="Testing\LoginTest.cs" />
+    <Compile Include="Testing\MainMenuTest.cs" />
+    <Compile Include="Testing\UserManagementTest.cs" />
+    <Compile Include="Testing\StockManagementTest.cs" />
+    <Compile Include="Testing\OrderTest.cs" />
+    <Compile Include="Testing\SalesManagementTest.cs" />
+    <Compile Include="Testing\DeliveryManagementTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

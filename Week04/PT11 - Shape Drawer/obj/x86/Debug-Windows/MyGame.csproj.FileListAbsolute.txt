@@ -1,181 +1,210 @@
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\animations\startup.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\bundles\FileDialog.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\bundles\splash.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\fonts\arial.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\fonts\cour.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\fdFile.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\fdFolder.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\FileDialog_Active.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\FileDialog_Background.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\FileDialog_Inactive.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\FileDialog_Scroll.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\Swinburne.jpg
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\images\SwinGameAni.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\panels\FileDialog.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\sounds\error.wav
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\sounds\SwinGameStart.wav
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\SwinGame.icns
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\Resources\SwinGame.ico
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\MyGame.exe
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\bin\Debug\SwinGame.dll
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask5\obj\x86\Debug-Windows\MyGame.exe
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\animations\startup.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\bundles\FileDialog.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\bundles\splash.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\fonts\arial.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\fonts\cour.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\fdFile.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\fdFolder.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\FileDialog_Active.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\FileDialog_Background.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\FileDialog_Inactive.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\FileDialog_Scroll.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\Swinburne.jpg
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\images\SwinGameAni.png
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\panels\FileDialog.txt
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\sounds\error.wav
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\sounds\SwinGameStart.wav
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\SwinGame.icns
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\Resources\SwinGame.ico
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\MyGame.exe
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\nunit.framework.dll
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\SwinGame.dll
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\nunit.framework.xml
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\obj\x86\Debug-Windows\MyGame.exe
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\mscorlib.dll
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\normidna.nlp
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\normnfc.nlp
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\normnfd.nlp
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\normnfkc.nlp
-C:\Users\sfu\Documents\Projects\Tutorials\PassTask9\bin\Debug\normnfkd.nlp
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\animations\startup.txt
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\bundles\FileDialog.txt
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\bundles\splash.txt
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\fonts\arial.ttf
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\fonts\cour.ttf
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\fdFile.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\fdFolder.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\FileDialog_Active.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\FileDialog_Background.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\FileDialog_Inactive.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\FileDialog_Scroll.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\Swinburne.jpg
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\images\SwinGameAni.png
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\panels\FileDialog.txt
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\sounds\error.wav
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\sounds\SwinGameStart.wav
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\SwinGame.icns
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\Resources\SwinGame.ico
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\MyGame.exe
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\mscorlib.dll
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\nunit.framework.dll
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\SwinGame.dll
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\nunit.framework.xml
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\normidna.nlp
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\normnfc.nlp
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\normnfd.nlp
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\normnfkc.nlp
-C:\Users\Lewis\Desktop\PassTask9\bin\Debug\normnfkd.nlp
-C:\Users\Lewis\Desktop\PassTask9\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-C:\Users\Lewis\Desktop\PassTask9\obj\x86\Debug-Windows\MyGame.exe
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\animations\startup.txt
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\bundles\FileDialog.txt
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\bundles\splash.txt
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\fonts\arial.ttf
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\fonts\cour.ttf
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\fdFile.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\fdFolder.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Active.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Background.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Inactive.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Scroll.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\Swinburne.jpg
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\images\SwinGameAni.png
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\panels\FileDialog.txt
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\sounds\error.wav
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\sounds\SwinGameStart.wav
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\SwinGame.icns
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\Resources\SwinGame.ico
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\MyGame.exe
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\mscorlib.dll
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\nunit.framework.dll
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\SwinGame.dll
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\nunit.framework.xml
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\normidna.nlp
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\normnfc.nlp
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\normnfd.nlp
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\normnfkc.nlp
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\normnfkd.nlp
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\obj\x86\Debug-Windows\MyGame.exe
-C:\Users\Lewis\Documents\Uni\Object-Oriented-Programming\Week03\PT9 - Shape Drawer\bin\Debug\nunit.framework.pdb
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\animations\startup.txt
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\bundles\FileDialog.txt
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\bundles\splash.txt
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\arial.ttf
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\cour.ttf
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\fdFile.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\fdFolder.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Active.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Background.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Inactive.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Scroll.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\Swinburne.jpg
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\SwinGameAni.png
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\panels\FileDialog.txt
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\sounds\error.wav
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\sounds\SwinGameStart.wav
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\SwinGame.icns
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\SwinGame.ico
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\MyGame.exe
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.dll
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\SwinGame.dll
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.pdb
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.xml
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-E:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\obj\x86\Debug-Windows\MyGame.exe
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\animations\startup.txt
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\bundles\FileDialog.txt
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\bundles\splash.txt
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\arial.ttf
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\cour.ttf
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\fonts\maven_pro_regular.ttf
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\fdFile.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\fdFolder.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Active.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Background.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Inactive.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_Scroll.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\FileDialog_ScrollSmall.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\Swinburne.jpg
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\images\SwinGameAni.png
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\panels\FileDialog.txt
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\sounds\error.wav
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\sounds\SwinGameStart.wav
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\SwinGame.icns
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\Resources\SwinGame.ico
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\MyGame.exe
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\mscorlib.dll
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.dll
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\SwinGame.dll
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.pdb
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\nunit.framework.xml
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\normidna.nlp
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\normnfc.nlp
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\normnfd.nlp
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\normnfkc.nlp
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\bin\Debug\normnfkd.nlp
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\obj\x86\Debug-Windows\MyGame.csprojResolveAssemblyReference.cache
-F:\Uni\Year 3\S2\OOP\Week04\PT11 - Shape Drawer\obj\x86\Debug-Windows\MyGame.exe
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/animations/startup.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/bundles/FileDialog.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/bundles/splash.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/fonts/arial.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/fonts/cour.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/fdFile.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/fdFolder.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/FileDialog_Active.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/FileDialog_Background.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/FileDialog_Inactive.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/FileDialog_Scroll.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/Swinburne.jpg
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/images/SwinGameAni.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/panels/FileDialog.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/sounds/error.wav
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/sounds/SwinGameStart.wav
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/SwinGame.icns
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/Resources/SwinGame.ico
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/MyGame.exe
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/bin/Debug/SwinGame.dll
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask5/obj/x86/Debug-Windows/MyGame.exe
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/animations/startup.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/bundles/FileDialog.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/bundles/splash.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/fonts/arial.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/fonts/cour.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/fdFile.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/fdFolder.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/FileDialog_Active.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/FileDialog_Background.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/FileDialog_Inactive.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/FileDialog_Scroll.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/Swinburne.jpg
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/images/SwinGameAni.png
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/panels/FileDialog.txt
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/sounds/error.wav
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/sounds/SwinGameStart.wav
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/SwinGame.icns
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/Resources/SwinGame.ico
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/MyGame.exe
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/nunit.framework.dll
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/SwinGame.dll
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/nunit.framework.xml
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/obj/x86/Debug-Windows/MyGame.exe
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/mscorlib.dll
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/normidna.nlp
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/normnfc.nlp
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/normnfd.nlp
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/normnfkc.nlp
+C:/Users/sfu/Documents/Projects/Tutorials/PassTask9/bin/Debug/normnfkd.nlp
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/animations/startup.txt
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/bundles/FileDialog.txt
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/bundles/splash.txt
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/fonts/arial.ttf
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/fonts/cour.ttf
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/fdFile.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/fdFolder.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/FileDialog_Active.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/FileDialog_Background.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/FileDialog_Inactive.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/FileDialog_Scroll.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/Swinburne.jpg
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/images/SwinGameAni.png
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/panels/FileDialog.txt
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/sounds/error.wav
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/sounds/SwinGameStart.wav
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/SwinGame.icns
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/Resources/SwinGame.ico
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/MyGame.exe
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/mscorlib.dll
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/nunit.framework.dll
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/SwinGame.dll
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/nunit.framework.xml
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/normidna.nlp
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/normnfc.nlp
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/normnfd.nlp
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/normnfkc.nlp
+C:/Users/Lewis/Desktop/PassTask9/bin/Debug/normnfkd.nlp
+C:/Users/Lewis/Desktop/PassTask9/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+C:/Users/Lewis/Desktop/PassTask9/obj/x86/Debug-Windows/MyGame.exe
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/animations/startup.txt
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/bundles/FileDialog.txt
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/bundles/splash.txt
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/fonts/arial.ttf
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/fonts/cour.ttf
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/fdFile.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/fdFolder.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Active.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Background.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Inactive.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Scroll.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/Swinburne.jpg
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/images/SwinGameAni.png
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/panels/FileDialog.txt
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/sounds/error.wav
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/sounds/SwinGameStart.wav
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/SwinGame.icns
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/Resources/SwinGame.ico
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/MyGame.exe
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/mscorlib.dll
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/nunit.framework.dll
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/SwinGame.dll
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/nunit.framework.xml
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/normidna.nlp
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/normnfc.nlp
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/normnfd.nlp
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/normnfkc.nlp
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/normnfkd.nlp
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/obj/x86/Debug-Windows/MyGame.exe
+C:/Users/Lewis/Documents/Uni/Object-Oriented-Programming/Week03/PT9 - Shape Drawer/bin/Debug/nunit.framework.pdb
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/animations/startup.txt
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/FileDialog.txt
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/splash.txt
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/arial.ttf
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/cour.ttf
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFile.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFolder.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Active.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Background.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Inactive.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Scroll.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/Swinburne.jpg
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/SwinGameAni.png
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/panels/FileDialog.txt
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/error.wav
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/SwinGameStart.wav
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.icns
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.ico
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/MyGame.exe
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.dll
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/SwinGame.dll
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.pdb
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.xml
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+E:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.exe
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/animations/startup.txt
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/FileDialog.txt
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/splash.txt
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/arial.ttf
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/cour.ttf
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFile.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFolder.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Active.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Background.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Inactive.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Scroll.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/Swinburne.jpg
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/SwinGameAni.png
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/panels/FileDialog.txt
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/error.wav
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/SwinGameStart.wav
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.icns
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.ico
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/MyGame.exe
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/mscorlib.dll
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.dll
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/SwinGame.dll
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.pdb
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.xml
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/normidna.nlp
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/normnfc.nlp
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/normnfd.nlp
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/normnfkc.nlp
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/bin/Debug/normnfkd.nlp
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.csprojResolveAssemblyReference.cache
+F:/Uni/Year 3/S2/OOP/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.exe
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/animations/startup.txt
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/FileDialog.txt
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/bundles/splash.txt
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/arial.ttf
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/cour.ttf
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/fonts/maven_pro_regular.ttf
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFile.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/fdFolder.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Active.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Background.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Inactive.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_Scroll.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/FileDialog_ScrollSmall.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/Swinburne.jpg
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/images/SwinGameAni.png
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/panels/FileDialog.txt
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/error.wav
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/sounds/SwinGameStart.wav
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.icns
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/Resources/SwinGame.ico
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/MyGame.exe
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.dll
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/SwinGame.dll
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/SwinGame.dll.mdb
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.pdb
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/bin/Debug/nunit.framework.xml
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.csprojAssemblyReference.cache
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.csproj.CopyComplete
+/home/lewis/Documents/Uni/COS20007/Object-Oriented-Programming/Week04/PT11 - Shape Drawer/obj/x86/Debug-Windows/MyGame.exe

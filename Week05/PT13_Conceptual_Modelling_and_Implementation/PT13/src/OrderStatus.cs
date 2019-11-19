@@ -5,6 +5,9 @@
 using System;
 namespace PT13.src
 {
+    /// <summary>
+    /// Order status.
+    /// </summary>
     public enum OrderStatus
     {
         NEW,

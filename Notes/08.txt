@@ -1,0 +1,64 @@
+Week 8 - Resource management
+
+files are opene and closed
+objects are also resources
+
+std::auto_ptr automatically deletes an object when it goes out of scope
+std::vector does the same thing
+
+RAII?
+Resource aquiasition is initialisation
+resource allocation must succeed for initialisation to succeed
+
+vector destructor wont destroy pointer references
+
+aliased
+resourced has multiple object references
+two objects point to a reference
+both can see each others changes
+
+unique_ptr pointer allows only one object to refere to a resource
+
+shared_ptr doesnt destroy the resource if there is another pointer to it
+The last pointer will delete the reference
+
+duplicate/deep copy
+real deal
+each pointer referes to a copy of the reference.
+
+c++ implicit methods
+= assignment operator
+default constructor
+destructor
+copy constructor
+
+MyCLass B (A); // shallow copy (shared)
+B shares same resources with A
+Cannot delete A
+
+automatic destructor does not free resources
+
+it is more efficient to use pointers than variables
+pointers can be moved.
+useful for pass by reference
+void load(Weapon w){
+  passing a whle object
+}
+void load(Weapon* w){
+  only passign the address, can still use the object
+}
+
+initialise field 
+this->N = N; // cant use .
+
+TO solve the shallow copy problem
+we must code out our copy constructor
+to create a deep copy
+this->x = new int[this->N];
+
+if a class is passed an object of its own type
+it copies the values for itself and sets new pointers
+The new list will be the same size as the old list
+loop through the list to copy and set new refrences to each value.
+
+

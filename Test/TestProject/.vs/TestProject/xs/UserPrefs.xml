@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{F35C0F97-BC19-4B7F-BFA2-2FF37F59FA53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestProject/Program.cs">
+    <Files>
+      <File FileName="TestProject/Tests/GameSceneTest.cs" Line="19" Column="42" />
+      <File FileName="TestProject/Scene.cs" Line="31" Column="30" />
+      <File FileName="TestProject/Weapon.cs" Line="22" Column="41" />
+      <File FileName="TestProject/WeaponType.cs" Line="1" Column="1" />
+      <File FileName="TestProject/Player.cs" Line="1" Column="1" />
+      <File FileName="TestProject/Dungeon.cs" Line="1" Column="1" />
+      <File FileName="TestProject/AnimatedObject.cs" Line="1" Column="1" />
+      <File FileName="TestProject/Program.cs" Line="26" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestProject" expanded="True">
+            <Node name="SemesterTest-101533222" expanded="True">
+              <Node name="Tests" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TestProject" expanded="True" selected="True">
+            <Node name="SemesterTest-101533222" expanded="True">
+              <Node name="TestProject" expanded="True">
+                <Node name="GameSceneTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SemesterTest-101533222 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

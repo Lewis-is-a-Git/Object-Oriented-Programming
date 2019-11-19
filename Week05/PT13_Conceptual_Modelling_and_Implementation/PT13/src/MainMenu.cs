@@ -7,34 +7,61 @@ using System.Collections.Generic;
 
 namespace PT13.src
 {
+    /// <summary>
+    /// Main menu.
+    /// </summary>
     public class MainMenu
     {
+        // Display user name in menu and customer orders
+        // Check access permission
         private User _currentUser;
-        private String _credentials;
-        private List<User> _users;
-        private List<Product> _products;
 
-        public string UserName { get => _currentUser.UserName; }
-        public List<Product> Products { get => _products; }
-        public User CurrentUser { get => _currentUser; }
+        // Getters
+        public string UserName { get { return _currentUser.UserName; } }
+        public User CurrentUser { get { return _currentUser; } }
 
+        // Used to check user access permission
+        public bool IsAdmin() { return _currentUser is Administrator; }
+        public bool IsCustomer() { return _currentUser is Customer; }
+        public bool IsDelivery() { return _currentUser is DeliveryPerson; }
+        public bool IsSales() { return _currentUser is SalesPerson; }
+
+        /// <summary>
+        /// Login with the specified userName and password
+        /// </summary>
+        /// <returns>Correct Login</returns>
+        /// <param name="users">Users.</param>
+        /// <param name="userName">User name.</param>
+        /// <param name="password">Password.</param>
         public bool Login(List<User> users, string userName, string password)
         {
-            _users = users;
             User user = users.Find(u => u.UserName == userName);
             Console.Clear();
-            if (user == null) { return false; }
+
+            if (user == null)
+            {
+                Console.WriteLine("Cannot find user.");
+                return false;
+            }
 
             bool success = false;
             if (user.Password == password)
             {
                 success = true;
                 _currentUser = user;
-                _credentials = user.Credentials;
+            }
+            else
+            {
+                Console.WriteLine("Incorrect Password.");
             }
             return success;
         }
 
+        /// <summary>
+        /// User management for Administrator.
+        /// </summary>
+        /// <returns>Updated list of users</returns>
+        /// <param name="users">Users.</param>
         public List<User> UserManagement(List<User> users)
         {
             string choice = "";
@@ -49,23 +76,29 @@ namespace PT13.src
             switch (choice)
             {
                 case ("create"):
-                    users = (_currentUser as Admin).CreateUser(users);
+                    users = (_currentUser as Administrator).CreateUser(users);
                     break;
                 case ("edit"):
-                    users = (_currentUser as Admin).EditUser(users);
+                    users = (_currentUser as Administrator).EditUser(users);
                     break;
                 case ("delete"):
                     Console.WriteLine("Enter username to delete: ");
                     string deleteUserName = Console.ReadLine();
-                    users = (_currentUser as Admin).DeleteUser(users, deleteUserName);
+                    users = (_currentUser as Administrator).DeleteUser(users, deleteUserName);
                     break;
                 default:
                     Console.WriteLine("Cannot access User Management");
+                    Console.WriteLine("Invalid access permission.");
                     break;
             }
             return users;
         }
 
+        /// <summary>
+        /// Stocks the management for Sales User.
+        /// </summary>
+        /// <returns>The management.</returns>
+        /// <param name="products">Products.</param>
         public List<Product> StockManagement(List<Product> products)
         {
             string choice = "";
@@ -79,30 +112,52 @@ namespace PT13.src
             }
             else
             {
-                Console.WriteLine("Cannot access User Management");
+                Console.WriteLine("Cannot access Stock Management");
+                Console.WriteLine("Invalid access permission.");
             }
             switch (choice)
             {
                 case ("add"):
-                    products = (_currentUser as Sales).AddProduct(products);
+                    products = (_currentUser as SalesPerson).AddProduct(products);
                     break;
                 case ("edit"):
-                    products = (_currentUser as Sales).EditProduct(products);
+                    products = (_currentUser as SalesPerson).EditProduct(products);
                     break;
                 case ("delete"):
-                    products = (_currentUser as Sales).DeleteProduct(products);
+                    products = (_currentUser as SalesPerson).DeleteProduct(products);
                     break;
             }
             return products;
         }
+
+        /// <summary>
+        /// Check Stock availability.
+        /// Any user can check.
+        /// </summary>
+        /// <param name="products">Products.</param>
         public void StockAvailability(List<Product> products)
         {
             Console.WriteLine("Enter product name to check availablity: ");
-            Product product = products.Find(p => p.Name == Console.ReadLine());
-            Console.WriteLine("There are " + product.Quantity + " " + product.Name + "(s) available");
+            string searchProductName = Console.ReadLine();
+            Product product = products.Find(p => p.Name == searchProductName);
+            if (product != null)
+            {
+                Console.WriteLine("There are " + product.Quantity + " " + product.Name + "(s) available");
+            }
+            else
+            {
+                Console.WriteLine("Cannot find product.");
+            }
         }
 
-        public List<Order> OrderPlacement(List<Order> orders, List<Product> products, string currentUser)
+        /// <summary>
+        /// Customer Order management.
+        /// </summary>
+        /// <returns>Updated orders and products</returns>
+        /// <param name="orders">Orders.</param>
+        /// <param name="products">Products.</param>
+        /// <param name="currentUser">Current user.</param>
+        public (List<Order>, List<Product>) OrderManagement(List<Order> orders, List<Product> products, string currentUser)
         {
             string choice = "";
             if (IsCustomer())
@@ -110,20 +165,32 @@ namespace PT13.src
                 Console.WriteLine("To create a new order enter: create");
                 Console.WriteLine("To check an order status enter: status");
                 choice = Console.ReadLine();
+                switch (choice)
+                {
+                    case ("create"):
+                        (orders, products) = (_currentUser as Customer).CreateOrder(orders, products, currentUser);
+                        break;
+                    case ("status"):
+                        (_currentUser as Customer).CheckOrderStatus(orders, currentUser);
+                        break;
+                }
             }
-            switch (choice)
+            else
             {
-                case ("create"):
-                    orders = (_currentUser as Customer).CreateOrder(orders, products, currentUser);
-                    products = (_currentUser as Customer).Products;
-                    break;
-                case ("check"):
-                    (_currentUser as Customer).CheckOrder(orders, currentUser);
-                    break;
+                Console.WriteLine("Cannot access Order Management");
+                Console.WriteLine("Customer access Required.");
             }
-            _products = products;
-            return orders;
+
+            return (orders, products);
         }
+
+        /// <summary>
+        /// Manage Orders for sales and prints sales details.
+        /// </summary>
+        /// <returns>Updated list of orders</returns>
+        /// <param name="users">Users.</param>
+        /// <param name="orders">Orders.</param>
+        /// <param name="products">Products.</param>
         public List<Order> SalesManagement(List<User> users, List<Order> orders, List<Product> products)
         {
             if (IsSales())
@@ -135,41 +202,42 @@ namespace PT13.src
                 switch (Console.ReadLine().ToLower())
                 {
                     case ("orders"):
-                        (_currentUser as Sales).DisplayOrders(orders, products);
+                        (_currentUser as SalesPerson).DisplayOrders(orders, products);
                         break;
                     case ("status"):
-                        orders = (_currentUser as Sales).UpdateOrderStatus(orders);
+                        orders = (_currentUser as SalesPerson).UpdateOrderStatus(orders);
                         break;
                     case ("sales"):
-                        (_currentUser as Sales).PrintSalesDetails(products);
+                        (_currentUser as SalesPerson).PrintSalesDetails(products);
                         break;
                 }
             }
             else
             {
-                Console.WriteLine("Invalid access permission.");
+                Console.WriteLine("Cannot access Sales Management");
+                Console.WriteLine("Sales access Required.");
             }
 
             return orders;
         }
 
+        /// <summary>
+        /// Deliveries management for delivery person.
+        /// </summary>
+        /// <returns>Updated list of orders.</returns>
+        /// <param name="orders">Orders.</param>
         public List<Order> DeliveryManagement(List<Order> orders)
         {
-
             if (IsDelivery())
             {
-                orders = (_currentUser as Delivery).UpdateOrderStatus(orders);
+                orders = (_currentUser as DeliveryPerson).UpdateOrderStatus(orders);
             }
             else
             {
-                Console.WriteLine("invalid access permission.");
+                Console.WriteLine("Cannot access Delivery Management");
+                Console.WriteLine("Delivery access Required.");
             }
             return orders;
         }
-
-        public bool IsAdmin() { return _currentUser is Admin; }
-        public bool IsCustomer() { return _currentUser is Customer; }
-        public bool IsDelivery() { return _currentUser is Delivery; }
-        public bool IsSales() { return _currentUser is Sales; }
     }
 }

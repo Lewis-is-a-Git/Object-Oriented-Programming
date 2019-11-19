@@ -1,0 +1,43 @@
+Design patterns
+Three categories
+Creational - create objects
+Structural - assemble objects
+Behavioral - perform common tasks
+
+Benefits
+  Modular
+  Reusable
+
+Creational: Factory method
+  uses a fectory class to create objects
+  based on some requirement
+Creational: Prototype
+  solves the deep copy clone problem
+  each child object can be cloned
+  dont care what child objects are cloned
+  tell a child object to create itself
+  used in games
+  Array of new objects
+    call a clone method on the new objects
+  
+  
+Structural: Adapter
+  refers to good ways to assemble classes
+  useful for when you have two component and need them to communicate
+  bridges the two classes
+  Client -> Target -> Adapter -> Adaptee
+  Used for integrating legacy systems
+  Adpater inherits from both the objects you want to connect
+  The adapter is an object that has access to both variables and methods of each parent class
+  the adapter methods can be highly cohesive with both parent objects
+  
+Behavioral: Command
+  invoker -> command interface -> concrete command -> Reciever
+  
+Behavior: Observer
+  watch for changes in an object
+  
+Design patters define interfaces not implemetnations
+  depend on abstractions
+  
+  
